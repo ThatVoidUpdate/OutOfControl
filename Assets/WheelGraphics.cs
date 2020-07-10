@@ -18,5 +18,6 @@ public class WheelGraphics : MonoBehaviour
         Quaternion rotation;
         collider.GetWorldPose(out position, out rotation);
         this.transform.position = position;
+        this.transform.rotation = rotation;
     }
 }
